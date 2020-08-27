@@ -372,13 +372,18 @@ ul#menu li a:hover {
     margin: 0 0 20px 0;
 }
 
-
+table{
+    table-layout: fixed;
+    word-break: break-word;
+    text-align: center;
+    width: 105%;
+}
 
 table tr th,
 table tr td {
     background: #d4aa29;
     color: #FFF;
-    padding: 15px 55px;
+    padding: 15px 20px;
     text-align: center;
 }
 
