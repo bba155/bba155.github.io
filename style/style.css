@@ -283,7 +283,7 @@ ul#menu li a:hover {
     width: 916px;
     font: normal 90% arial, sans-serif;
     height: 28px;
-    margin-top: 20px;
+    margin: 0 auto;
     padding: 20px 0 5px 0;
     text-align: center;
     background: transparent;
