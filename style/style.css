@@ -376,7 +376,7 @@ table{
     table-layout: fixed;
     word-break: break-word;
     text-align: center;
-    width: 105%;
+    width: 100%;
 }
 
 table tr th,
