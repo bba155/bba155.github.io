@@ -8,6 +8,7 @@
     <meta charset="UTF-8">
     <title>趨勢盃壘球賽</title>
     <link rel="stylesheet" type="text/css" href="style/style.css"/>
+    <link rel="stylesheet" type="text/css" href="style/mobile.css"/>
     <link rel="shortcut icon" href="style/ball.ico"/>
     <link rel="bookmark" href="style/ball.ico"/>
     <style>
@@ -26,8 +27,7 @@
         <div id="logo">
             <div id="logo_text">
                 <!-- class="logo_colour", allows you to change the colour of the text -->
-                <h1><a href="index.html" style="font-family:Microsoft JhengHei; font-size:50px"><span style="color:red">卑鄙</span><span
-                        style="font-color: white">趨勢人壘球賽</span></a></h1>
+                <h1 id="logo_header"><a href="index.html" style="font-family:Microsoft JhengHei;"><span style="color:red">卑鄙</span><span>趨勢人壘球賽</span></a></h1>
                 <h2 style="font-family:Microsoft JhengHei;font-size:20px">2020/08/29(六) 景美福和壘球B場</h2>
             </div>
         </div>
@@ -41,8 +41,15 @@
                 <li><a href="traffic.html">交通</a></li>
             </ul>
         </div>
+        <ul id="m_menu">
+            <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+            <li><a href="index.html">Home</a></li>
+            <li class="selected"><a href="rule.html">規則</a></li>
+            <li><a href="group.html">分組</a></li>
+            <li><a href="result.html">成績</a></li>
+            <li><a href="traffic.html">交通</a></li>
+        </ul>
     </div>
-    <div id="content_header"></div>
     <div id="site_content">
         <div class="sidebar">
             <!-- insert your sidebar items here -->
@@ -114,7 +121,6 @@
             </ol>
         </div>
     </div>
-    <div id="content_footer"></div>
     <div id="footer">
         Copyright &copy; TRENDSOFTBALLCLUB
     </div>
